@@ -1,0 +1,112 @@
+@import url("https://fonts.googleapis.com/css2?family=VT323&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Orbitron:wght@500&display=swap");
+
+body {
+  background: repeating-linear-gradient(
+      0deg,
+      hsla(83, 49%, 5%, 0.1) 0px,
+      hsla(83, 49%, 5%, 0.1) 50px,
+      transparent 50px,
+      transparent 100px
+    ),
+    repeating-linear-gradient(
+      90deg,
+      hsla(83, 49%, 5%, 0.1) 0px,
+      hsla(83, 49%, 5%, 0.1) 50px,
+      transparent 50px,
+      transparent 100px
+    ),
+    linear-gradient(90deg, hsl(89, 81%, 42%), hsl(89, 81%, 42%));
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container {
+  width: 80%;
+  margin: 10px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  font-family: Courier, serif;
+}
+.top-bar {
+  width: 80%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+h1 {
+  width: 80%;
+  text-align: center;
+  font-size: 4.4em;
+  color: #33ff00;
+  font-family: "VT323", Courier, serif;
+}
+
+h1:hover {
+  text-decoration: underline;
+}
+
+img {
+  width: 190px;
+  height: 250px;
+}
+
+.author {
+  width: 80%;
+  color: #fff;
+  font-weight: bold;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+#score {
+  text-align: center;
+  color: #112f91;
+  font-size: 4em;
+  font-family: "Orbitron", sans-serif;
+}
+
+#time-left {
+  width: 100px;
+  background-color: #021;
+  border: 5px solid #021;
+  color: red;
+  font-size: 3em;
+  font-family: "Orbitron", sans-serif;
+  text-align: center;
+}
+
+h2 {
+  color: #fff;
+  margin: 10px 25%;
+}
+
+.body-game {
+  width: 80%;
+  background-color: hsla(89, 81%, 42%, 0.849);
+  border: 5px solid darkcyan;
+}
+.grid {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  align-content: center;
+  width: 470px;
+  height: 470px;
+  margin: 10px 25%;
+}
+
+.square {
+  width: 150px;
+  height: 150px;
+  border: 3px solid #fff;
+}
+
+.mole {
+  background-image: url("mole.png");
+  background-size: cover;
+}
